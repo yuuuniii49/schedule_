@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "my_func.c"	// 사용자 함수가 정의된 파일  
+//#include "my_func.c"	// 사용자 함수가 정의된 파일  
 #include "my_func.h"	// 사용자 함수 선언된 파일  
 
 int main()

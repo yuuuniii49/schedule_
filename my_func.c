@@ -1,11 +1,7 @@
-typedef struct Schedule {
- 	int info[30];	// 스케줄 내용 
- 	char place[30];	// 스케줄 장소 
- 	int type;		// 스케줄 유형 
- 	int month;		// 스케줄 월 
- 	int day;		// 스케줄 일 
- 	struct Schedule *next;	// 다음 스케줄을 가리킬 포인터  
-}Sch_list;	// 자료형 정의 
+#include <stdlib.h>
+#include <stdio.h>
+
+#include "my_func.h"
 
 Sch_list *head = NULL;	// 스케줄을 넣을 가장 처음 구조체 변수
 
